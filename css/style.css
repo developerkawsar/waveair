@@ -1,46 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
-*{
-    margin: 0%;
-    padding: 0%;
-}
+
+
 
 body{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.first-section{
+section{
+    width: 100%;
+    height: 100vh;
+}
+.half-width{
     width: 40%;
+    margin: 2%;
+    padding: 2.5%;
     float: left;
+}
+
+/* .half-width img{
+    width: 100%;
+    
+    
+} */
+
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 24px;
+}
+h5{
+    font-size: 20px;
+}
+
+p{
+    font-size: 18px;
+    color: dimgrey;
+    text-align: justify;
+}
+
+.highlight-text{
+    color: #d2691e;
+    
+}
+
+.highlight-font-size{
+    font-size: 36px;
+}
+
+#welcome-top{
+    margin-top: 15%;
+}
+
+.top-banner{
+    background-image: url(../assets/top-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#explore-us{
+    text-decoration: none;
+}
+
+.btn-design{
+    padding: 10px 25px;
+    background-image: linear-gradient(45deg,#e18542, #d2691e);
+    color: #f5f5f5;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.text-link{
+    text-decoration: none;
+    color: #d2691e;
+    font-weight: 700;
+}
+
+
+.service-divider{
+    width: 22%;
     margin: 2%;
     padding: 3%;
+    float: left;
+    border-radius: 2px;
+    height: 20%px;
+    box-shadow: 3px 3px 10px rgb(174, 174, 174);
+    background-color: lightgoldenrodyellow;
 }
 
-.first-section img{
-    width: 100%;
-    border-radius: 60% 40%;
+.service-area{
+    align-items: center;
+    background-image: url(../assets/service-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    content-visibility: 70%;
+}
+
+
+.text-details-link{
+    text-align-last: right;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    animation-fill-mode: forwards;
+}
+
+#first-service{
+    border-left: 5px solid;
+    border-image: linear-gradient(45deg, green, red);
+    border-image-slice: 1;
+}
+#second-service{
+    border-left: 5px solid;
+    border-image: linear-gradient(45deg, blue, dimgrey);
+    border-image-slice: 1;
+}
+#third-service{
+    border-left: 5px solid;
+    border-image: linear-gradient(45deg, red, orange);
+    border-image-slice: 1;
+}
+
+.service-description-area{
+    width: 55%;
     margin-left: 10%;
 }
 
-#text-content{
-    text-align: justify;
-    
-}
-h1{
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-#welcome-msg{
-    font-size: 24px;
-    margin-bottom: 20px;
+.service-description-area p{
+    color: black;
 }
 
-.service-highlight{
-    color: brown;
-    font-size: 32px;
-}
 
-#welcome-heading{
-    font-size: 16px;
-    margin-bottom: 10px;
+
+footer p{
+    text-align: center;
 }
