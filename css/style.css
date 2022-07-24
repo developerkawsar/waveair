@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.first-section{
+    width: 40%;
+    float: left;
+    margin: 2%;
+    padding: 3%;
+}
+
+.first-section img{
+    width: 100%;
+    border-radius: 60% 40%;
+    margin-left: 10%;
+}
+
+#text-content{
+    text-align: justify;
+    
+}
+h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+#welcome-msg{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-highlight{
+    color: brown;
+    font-size: 32px;
+}
+
+#welcome-heading{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
